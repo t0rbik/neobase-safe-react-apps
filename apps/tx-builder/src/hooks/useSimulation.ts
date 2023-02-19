@@ -38,7 +38,7 @@ const useSimulation = (): UseSimulationReturn => {
     [simulation],
   )
   const { safe, web3 } = useNetwork()
-  const simulationSupported = useMemo(() => isSimulationSupported(safe.chainId.toString()), [safe])
+  const simulationSupported = false
 
   const simulateTransaction = useCallback(async () => {
     if (!web3) return
