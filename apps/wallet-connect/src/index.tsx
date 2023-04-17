@@ -10,7 +10,7 @@ ReactDOM.render(
   <>
     <GlobalStyles />
     <ThemeProvider theme={theme}>
-      <SafeProvider loader={<Loader size="md" />}>
+      <SafeProvider>
         <App />
       </SafeProvider>
     </ThemeProvider>
