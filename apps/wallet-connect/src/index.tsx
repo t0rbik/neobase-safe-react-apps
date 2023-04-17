@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom'
 import App from './App'
 import { SafeProvider } from '@safe-global/safe-apps-react-sdk'
-import { Loader, theme } from '@gnosis.pm/safe-react-components'
+import { theme } from '@gnosis.pm/safe-react-components'
 import { ThemeProvider } from 'styled-components'
 
 import GlobalStyles from './global'
